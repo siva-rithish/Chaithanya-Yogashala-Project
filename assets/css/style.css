@@ -1396,7 +1396,7 @@ textarea {
 /* About Page Sub Banner Section Style */
 
 .sub-banner-section{
-    background-image: url('../images/subbanner_section_background.jpg');
+    background-image: url('../images/subbanner_section_background1.jpg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1422,7 +1422,7 @@ textarea {
     font-weight: 400;
     padding: 14px 24px;
     text-align: center;
-    background-color: #724065;
+    background-color: #a72f04;
     color: var(--e-global-color-white);
     display: inline-block;
     border-radius: 25px 0 25px 0;
