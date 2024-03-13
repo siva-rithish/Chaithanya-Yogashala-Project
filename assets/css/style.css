@@ -87,10 +87,11 @@ p{
 /* Home Page Header Section Style */
 
 .banner-section-outer{
-    background-image: url('../images/banner_section_background.jpg');
+    background-color: var(--e-global-color-primary);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 700px;
 }
 .main_header {    
     padding: 42px 292px 0;
@@ -241,7 +242,7 @@ p{
     position: relative;
 }
 .banner-section-outer .banner-section .banner-section-content{
-    padding-top: 168px;
+    padding-top: 16px;
 }
 .banner-section-outer .banner-section h5{
     text-transform: uppercase;
@@ -337,11 +338,11 @@ p{
 }
 .banner-section-outer .banner-section .banner-section-image{
     position: relative;
-    animation: float 6s ease-in-out infinite;
+    filter: drop-shadow(0px 4px 10px rgba(255, 215, 0, 0.5));
 }
 .banner-section-outer .banner-section .banner-section-image figure{
     position: absolute;
-    top: -5px;
+    top: 127px;
     left: -20px;
 }
 @keyframes float {
