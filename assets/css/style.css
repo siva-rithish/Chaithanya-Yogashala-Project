@@ -26,15 +26,15 @@ body {
     font-family: 'Karla', sans-serif;
 }
 :root {
-    --e-global-color-primary: #242424;
-    --e-global-color-secondary: #764979;
+    --e-global-color-primary: #722805;
+    --e-global-color-secondary: #ec9454;
     --e-global-color-text: #6b6b6b;
     --e-global-color-accent: #413625;
 	--e-global-color-white: #ffffff;
     --e-global-color-soft-orange: #e1ccad;
-    --e-global-color-desaturated-magenta: #543458;
-    --e-global-color-very-dark-desaturated-magenta: #5c3960;
-    --e-global-color-mostly-desaturated-magenta: #8a648d;
+    --e-global-color-desaturated-magenta: #ec9454;/*2*/
+    --e-global-color-very-dark-desaturated-magenta: #722805;/*1*/
+    --e-global-color-mostly-desaturated-magenta: #722805;/*1*/
     --e-global-color-pale-blue: #f4f7ff;
 }
 html{
@@ -1317,7 +1317,7 @@ textarea {
 }
 .middle-portion ul .icons i {
     border-radius: 100%;
-    background: var(--e-global-color-desaturated-magenta);
+    background: #a72f04;
     color: var(--e-global-color-white);
     font-size: 18px;
     line-height: 48px;
