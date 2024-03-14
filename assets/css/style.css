@@ -91,7 +91,7 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 744px;
 }
 .main_header {    
     padding: 42px 292px 0;
@@ -1396,10 +1396,11 @@ textarea {
 /* About Page Sub Banner Section Style */
 
 .sub-banner-section{
-    background-image: url('../images/subbanner_section_background1.jpg.png');
+    background-color: var(--e-global-color-primary);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 700px;
 }
 .sub-banner-section .banner-section {
     padding: 110px 0 120px;
@@ -2189,4 +2190,7 @@ textarea {
 }
 .single-post .single-post-heading {
     font-size: 30px !important;
+}
+.logo-c img{
+    height:120px;    
 }
