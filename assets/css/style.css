@@ -2194,3 +2194,14 @@ textarea {
 .logo-c img{
     height:120px;    
 }
+.img-s{
+    height: 300px;
+    border-radius: 50px 0;
+}
+.img-f{
+    height: 300px;
+    border-radius: 50px 0;
+}
+.img-footer-logo{
+    height: 110px;
+}
