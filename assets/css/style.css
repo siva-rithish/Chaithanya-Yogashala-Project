@@ -1396,10 +1396,11 @@ textarea {
 /* About Page Sub Banner Section Style */
 
 .sub-banner-section{
-    background-image: url('../images/subbanner_section_background1.jpg.png');
+    background-color: var(--e-global-color-primary);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 700px;
 }
 .sub-banner-section .banner-section {
     padding: 110px 0 120px;
