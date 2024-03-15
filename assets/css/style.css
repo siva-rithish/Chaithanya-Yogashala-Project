@@ -489,7 +489,7 @@ p{
     z-index: 1;
 }
 .aboutus_image figure{
-    margin-top: -12px;
+    margin-top: 12px;
 }
 .aboutus_section .aboutus_top_shape {
     position: absolute;
@@ -1470,7 +1470,7 @@ textarea {
     position: relative;
 }
 .aboutpage_aboutus_image figure{
-    margin-top: -5px;
+    margin-top: 5px;
 }
 .aboutpage_aboutus_section .aboutus_top_shape {
     position: absolute;
@@ -2194,11 +2194,3 @@ textarea {
 .logo-c img{
     height: 90px;    
 }
-.img-service{
-    height: 350px;
-    border-radius: 50px 0px;
-}
-.img-footer-logo{
-    height: 115px;
-}
-
