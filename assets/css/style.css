@@ -1504,7 +1504,7 @@ textarea {
     color: var(--e-global-color-primary);
 }
 .aboutpage_aboutus_content p {
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     color: var(--e-global-color-text);
 }
 .aboutpage_aboutus_content .margin_bottom{
@@ -1532,7 +1532,7 @@ textarea {
     height: 38px;
     width: 38px;
     text-align: center;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 36px;
     color: var(--e-global-color-secondary);
 }
@@ -2198,9 +2198,23 @@ textarea {
     font-size: 30px !important;
 }
 .logo-c img{
-    height: 75px;    
+    height: 90px;    
 }
-.home-s img{
+.img-service{
     height: 350px;
-    border-radius: 50px 0;
+    border-radius: 50px 0px;
+}
+.img-footer-logo{
+    height: 115px;
+}
+.img-review{
+    height: 120px;
+}
+.img-f{
+    height: 375px;
+    border-radius: 50px 0px;
+}
+.img-s{
+    height: 370px;
+    border-radius: 50px 0px;  
 }
