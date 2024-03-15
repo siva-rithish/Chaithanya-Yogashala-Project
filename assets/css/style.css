@@ -2211,10 +2211,5 @@ textarea {
 }
 .img-s{
     height: 370px;
-    border-radius: 50px 0px;
-    height: 75px;    
-}
-.home-s img{
-    height: 350px;
-    border-radius: 50px 0;
+    border-radius: 50px 0px;  
 }
