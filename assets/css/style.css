@@ -2195,3 +2195,7 @@ textarea {
 .logo-c img{
     height: 75px;    
 }
+.home-s img{
+    height: 350px;
+    border-radius: 50px 0;
+}
