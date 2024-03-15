@@ -2194,3 +2194,21 @@ textarea {
 .logo-c img{
     height: 90px;    
 }
+.img-service{
+    height: 350px;
+    border-radius: 50px 0px;
+}
+.img-footer-logo{
+    height: 115px;
+}
+.img-review{
+    height: 120px;
+}
+.img-f{
+    height: 375px;
+    border-radius: 50px 0px;
+}
+.img-s{
+    height: 370px;
+    border-radius: 50px 0px;
+}
