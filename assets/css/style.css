@@ -1470,7 +1470,7 @@ textarea {
     position: relative;
 }
 .aboutpage_aboutus_image figure{
-    margin-top: -12px;
+    margin-top: -5px;
 }
 .aboutpage_aboutus_section .aboutus_top_shape {
     position: absolute;
@@ -2192,14 +2192,5 @@ textarea {
     font-size: 30px !important;
 }
 .logo-c img{
-    height:90px;    
-}
-.home-s img{
-    height: 360px;
-    border-radius: 50px 0px;
-}
-.vedio-container{
-    position: absolute;
-    top:0;
-
+    height: 90px;    
 }
