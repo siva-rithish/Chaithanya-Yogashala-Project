@@ -238,7 +238,7 @@ p{
 /* Home Page Banner Section Style */
 
 .banner-section-outer .banner-section{
-    padding: 50px 292px 138px;
+    padding: 50px 292px 9px;
     position: relative;
 }
 .banner-section-outer .banner-section .banner-section-content{
@@ -337,13 +337,14 @@ p{
     color: var(--e-global-color-soft-orange);
 }
 .banner-section-outer .banner-section .banner-section-image{
-    position: relative;
+    position: absolute;
+    top: 15px;
     filter: drop-shadow(0px 4px 10px rgba(255, 215, 0, 0.5));
 }
 .banner-section-outer .banner-section .banner-section-image figure{
     position: absolute;
     top: 127px;
-    left: -20px;
+    left: 0px;
 }
 @keyframes float {
 	0% {
@@ -867,7 +868,11 @@ textarea {
     top: 202px;
     margin-right: -30px;
 }
-
+.t-video{
+    position: relative;
+    top: -50vh;
+    height: 841px;
+}
 /* Home Page Pricing Plans Section Style */
 
 .pricing_plans_section{
