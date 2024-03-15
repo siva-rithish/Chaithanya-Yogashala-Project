@@ -91,7 +91,7 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 744px;
+    height: 714px;
 }
 .main_header {    
     padding: 42px 292px 0;
@@ -2192,5 +2192,14 @@ textarea {
     font-size: 30px !important;
 }
 .logo-c img{
-    height:120px;    
+    height:90px;    
+}
+.home-s img{
+    height: 360px;
+    border-radius: 50px 0px;
+}
+.vedio-container{
+    position: absolute;
+    top:0;
+
 }
