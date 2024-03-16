@@ -333,12 +333,16 @@ p{
     color: var(--e-global-color-white);
     animation: float_img 6s ease-in-out infinite;
 }
+.home-s img{
+    height:350px;
+    border-radius: 50px 0;
+}
 .banner-section-outer .banner-section .banner-section-content .top-btn i:hover{
     color: var(--e-global-color-soft-orange);
 }
 .banner-section-outer .banner-section .banner-section-image{
     position: absolute;
-    top: 15px;
+    top: 0;
     filter: drop-shadow(0px 4px 10px rgba(255, 215, 0, 0.5));
 }
 .banner-section-outer .banner-section .banner-section-image figure{
