@@ -26,16 +26,16 @@ body {
     font-family: 'Karla', sans-serif;
 }
 :root {
-    --e-global-color-primary: #722805;
-    --e-global-color-secondary: #ec9454;
+    --e-global-color-primary: #242424;
+    --e-global-color-secondary: #242424;
     --e-global-color-text: #6b6b6b;
     --e-global-color-accent: #413625;
 	--e-global-color-white: #ffffff;
-    --e-global-color-soft-orange: #e1ccad;
-    --e-global-color-desaturated-magenta: #ec9454;/*2*/
-    --e-global-color-very-dark-desaturated-magenta: #722805;/*1*/
-    --e-global-color-mostly-desaturated-magenta: #722805;/*1*/
-    --e-global-color-pale-blue: #f4f7ff;
+    --e-global-color-soft-orange: #f96f11;
+    --e-global-color-desaturated-magenta: #ec9454;
+    --e-global-color-very-dark-desaturated-magenta: #f96f11;
+    --e-global-color-mostly-desaturated-magenta: #f96f11;
+    --e-global-color-pale-blue: #ec9454;
 }
 html{
     scroll-behavior: smooth;
@@ -647,7 +647,7 @@ p{
     content: "\f058";
     height: 76px;
     width: 76px;
-    background-color: var(--e-global-color-secondary);
+    background-color: var(--e-global-color-soft-orange);
     position: absolute;
     border-radius: 100%;
     z-index: 1;
@@ -682,7 +682,7 @@ p{
     content: "\f058";
     height: 76px;
     width: 76px;
-    background-color: var(--e-global-color-secondary);
+    background-color: var(--e-global-color-soft-orange);
     position: absolute;
     border-radius: 100%;
     z-index: 1;
@@ -1244,7 +1244,7 @@ textarea {
     text-align: center;
     color: var(--e-global-color-white);
     display: inline-block;
-    background-color: var(--e-global-color-secondary);
+    background-color: var(--e-global-color-soft-orange);
     border-radius: 35px 0px 35px 0px;
     transition: all 0.3s ease-in-out;
     outline: none;
@@ -1283,7 +1283,8 @@ textarea {
 .subscribe_background_image .subscribe_image {
     position: absolute;
     bottom: -125px;
-    right: -66px;
+    right: -7px;
+    transform: scaleX(-1);
 }
 
 /* Home Page Footer Section Style */
@@ -2221,4 +2222,7 @@ textarea {
 .img-s{
     height: 370px;
     border-radius: 50px 0px;  
+}
+.review-img{
+    height: 120px;
 }
