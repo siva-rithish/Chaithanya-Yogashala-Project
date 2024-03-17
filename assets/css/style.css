@@ -2240,3 +2240,22 @@ textarea {
 .review-img {
   height: 120px;
 }
+/* gallery */
+.gallery{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.img1 img{
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.2s  ease-in-out;
+    box-shadow:1px 1px 15px 1px var(--e-global-color-very-dark-desaturated-magenta) ;
+}
+.img1 img:hover{
+    transform: translateY(-10px) scale(110%);
+
+}
