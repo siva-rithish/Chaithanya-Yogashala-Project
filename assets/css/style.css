@@ -2272,3 +2272,25 @@ textarea {
     transform: translateY(-10px) scale(110%);
 
 }
+
+.ache-img{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.achievement-j{
+    height: 120px;
+}
+.achievement-k{
+    height: 120px;
+}
+.achievement-i{
+    height: 120px;
+}
+.achievement-logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
