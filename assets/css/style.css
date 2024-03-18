@@ -87,6 +87,7 @@ p {
 /* Home Page Header Section Style */
 
 .banner-section-outer {
+  position: relative;
   background-color: var(--e-global-color-primary);
   background-size: cover;
   background-repeat: no-repeat;
@@ -338,12 +339,14 @@ p {
   height: 350px;
   border-radius: 50px 0;
 }
-.banner-section-outer .banner-section .banner-section-content .top-btn i:hover {
+
+.banner-section-outer  .banner-section-content .top-btn i:hover {
   color: var(--e-global-color-soft-orange);
 }
 .banner-section-outer .banner-section .banner-section-image {
   position: absolute;
-  top: 0;
+  bottom: 0;
+  right: 0;
   filter: drop-shadow(0px 4px 10px rgba(255, 215, 0, 0.5));
 }
 .banner-section-outer .banner-section .banner-section-image figure {
@@ -2218,6 +2221,7 @@ textarea {
 }
 .logo-c img {
   height: 90px;
+  width: 130px;
 }
 .img-service {
   height: 350px;
