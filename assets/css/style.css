@@ -2294,3 +2294,49 @@ textarea {
     align-items: center;
     justify-content: center;
 }
+.img-logo{
+    height: 150px;
+    width:auto;
+    justify-content: center;
+}
+.banner-card{
+    position: relative;
+    
+}
+.banner-card img{
+    width: 100vw;
+    padding: 95px 0 80px;
+    height: fit-content;
+    display:flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+.banner-text{
+    position:absolute;
+    top: 40%;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.banner-text h2{
+    font-size: 35px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    height: auto;
+}
+
+.banner-text p{
+    font-size: 20px;
+    
+    padding: 100px;
+    text-align: left;
+    text-decoration: solid;
+    justify-content:center;
+    font-family: sans-serif;
+    
+}
