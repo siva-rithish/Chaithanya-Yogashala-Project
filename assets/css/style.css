@@ -2227,3 +2227,13 @@ textarea {
 .review-img{
     height: 120px;
 }
+.mission_image img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+}
+.vision_image img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
