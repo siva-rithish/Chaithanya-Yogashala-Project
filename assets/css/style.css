@@ -1577,6 +1577,26 @@ textarea {
   transform: translateY(-10px);
 }
 
+/* About Page About Section Style */
+.flex{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.about1{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.abt-logo img{
+  height: 250px;
+}
+.abt-content{
+  width: 50%;
+}
 /* About Page Discount Section Style */
 
 .discount_section {
