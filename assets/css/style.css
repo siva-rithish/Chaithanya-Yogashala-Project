@@ -1540,9 +1540,10 @@ textarea {
   margin-bottom: 30px;
 }
 .aboutpage_aboutus_content .box {
-  width: 48%;
+  width: 49%;
   background-color: var(--e-global-color-white);
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   align-items: center;
   padding: 20px 24px 15px;
   border-radius: 30px 0 30px 0;
@@ -1553,9 +1554,7 @@ textarea {
   position: relative;
 }
 .aboutpage_aboutus_content .box i {
-  position: absolute;
-  left: 22px;
-  top: 12px;
+  
   border-radius: 100%;
   border: 2px solid var(--e-global-color-secondary);
   height: 38px;
@@ -1596,6 +1595,15 @@ textarea {
 }
 .abt-content{
   width: 50%;
+}
+.box_wrapper1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.box1{
+  background-color: var(--e-global-color-desaturated-magenta);
 }
 /* About Page Discount Section Style */
 
@@ -2172,6 +2180,7 @@ textarea {
 .message_section .box_padding {
   margin-top: 10px;
 }
+
 .message_section .box {
   box-shadow: 1px 1px 50px rgb(0 0 0 / 5%);
   width: 380px;
