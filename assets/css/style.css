@@ -1555,7 +1555,7 @@ textarea {
 .aboutpage_aboutus_content .box i {
   position: absolute;
   left: 22px;
-  top: 24px;
+  top: 12px;
   border-radius: 100%;
   border: 2px solid var(--e-global-color-secondary);
   height: 38px;
