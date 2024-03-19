@@ -1494,11 +1494,15 @@ textarea {
 .aboutpage_aboutus_section {
   padding: 132px 0;
 }
-.aboutpage_aboutus_image {
+.abt-cnt{
   position: relative;
 }
+.aboutpage_aboutus_image {
+  position: absolute;
+  right: 12%;
+  top:12%;
+}
 .aboutpage_aboutus_image figure {
-  margin-top: 5px;
 }
 .aboutpage_aboutus_section .aboutus_top_shape {
   position: absolute;
