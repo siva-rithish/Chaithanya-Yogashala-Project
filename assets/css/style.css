@@ -2310,8 +2310,6 @@ textarea {
     width: 100vw;
     padding: 95px 0 80px;
     height: fit-content;
-    display:flex;
-    justify-content: center;
     max-width: 100%;
     height: auto;
 }
@@ -2321,11 +2319,11 @@ textarea {
     text-align: center;
     color: #ffffff;
     padding: 20px;
+    
 }
 
 .banner-text h2{
     font-size: 35px;
-    
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -2335,11 +2333,16 @@ textarea {
 
 .banner-text p{
     font-size: 20px;
-    
+    width: 70vw;
     padding: 100px;
     text-align: left;
     text-decoration: solid;
     justify-content:center;
-    font-family: sans-serif;
+    font-family: "Karla", sans-serif;
     
+}
+.discount-container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
