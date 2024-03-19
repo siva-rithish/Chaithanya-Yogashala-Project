@@ -2302,47 +2302,43 @@ textarea {
     width:auto;
     justify-content: center;
 }
+
 .banner-card{
     position: relative;
     
 }
 .banner-card img{
     width: 100vw;
-    padding: 95px 0 80px;
-    height: fit-content;
     max-width: 100%;
     height: auto;
 }
 .banner-text{
     position:absolute;
-    top: 40%;
+    display:flex;
     text-align: center;
     color: #ffffff;
-    padding: 20px;
+    padding: 240px;
+    justify-content: center;
     
 }
 
 .banner-text h2{
     font-size: 35px;
+    
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 5px;
     height: auto;
+    font-family: "Karla", sans-serif;
 }
 
 .banner-text p{
-    font-size: 20px;
+    font-size: 20px;  
+    
     width: 70vw;
     padding: 100px;
-    text-align: left;
-    text-decoration: solid;
-    justify-content:center;
+    text-align: left; 
     font-family: "Karla", sans-serif;
     
-}
-.discount-container{
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
