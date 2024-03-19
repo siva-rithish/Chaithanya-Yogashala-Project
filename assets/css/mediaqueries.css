@@ -1,6 +1,9 @@
 /* Media Queries  */
 
 @media screen and (max-width: 1440px){
+    .logo-c{
+        margin-right: 10vw;
+    }
     .main_header {
         padding: 35px 85px 0;
     }
@@ -136,8 +139,11 @@
     .main_header {
         padding: 30px 60px 0;
     }
+    .logo-c{
+        margin-right: 10vw;
+    }
     .navbar-brand img{
-        width: 190px;
+        width: 130px;
     }
     .navbar-nav {
         padding-left: 36px;
@@ -1033,7 +1039,7 @@
         padding: 25px 30px 0;
     }
     .navbar-brand img {
-        width: 175px;
+        width: 135px;
     }
     .navbar-nav {
         padding-left: 0;
@@ -1935,7 +1941,7 @@
         width: 45%;
     }
     .banner-section-outer{
-        height: 560px;
+        height: 450px;
     }
     .banner-section-outer .banner-section {
         padding: 55px 30px 60px;
