@@ -1493,6 +1493,9 @@ textarea {
 
 .aboutpage_aboutus_section {
   padding: 132px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .abt-cnt{
   position: relative;
