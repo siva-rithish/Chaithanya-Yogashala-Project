@@ -2290,10 +2290,11 @@ textarea {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 50px 0px;
 }
 .img1 img{
     height: 300px;
+    width: 100%;
     border-radius: 20px;
     transition: all 0.2s  ease-in-out;
     box-shadow:1px 1px 15px 1px var(--e-global-color-very-dark-desaturated-magenta) ;
