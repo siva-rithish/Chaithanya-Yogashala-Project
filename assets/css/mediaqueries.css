@@ -63,11 +63,10 @@
     }
     .get_in_touch_section::after {
         width: 58%;
+        display: none;
     }
     .get_in_touch_section .get_in_touch_video .video_img {
-        left: -15px;
-        top: 220px;
-        margin-right: 0;
+        display: none;
     }
 
     .testimonial_content .testimonial_paragraph {
@@ -2241,6 +2240,7 @@ display: none;    }
         display: block;
         position: relative;
         background-position: center;
+        display: none;
     }
 
     .pricing_plans_section {

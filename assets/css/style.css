@@ -771,7 +771,7 @@ p {
   position: absolute;
 }
 .get_in_touch_section::after {
-  background: url(../images/get_in_touch_image.jpg);
+  background-color: var(--e-global-color-soft-orange);
   content: "";
   width: 50%;
   height: 806px;
@@ -880,8 +880,8 @@ textarea {
 }
 .get_in_touch_section .get_in_touch_video .video_img {
   position: absolute;
-  left: 80px;
-  top: 202px;
+  left: -80px;
+  top: 100px;
   margin-right: -30px;
 }
 .t-video {
@@ -1428,7 +1428,7 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 700px;
+  height: 420px;
 }
 .sub-banner-section .banner-section {
   padding: 110px 0 120px;
