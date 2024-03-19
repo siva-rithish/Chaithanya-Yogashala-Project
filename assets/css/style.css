@@ -87,6 +87,7 @@ p {
 /* Home Page Header Section Style */
 
 .banner-section-outer {
+  position: relative;
   background-color: var(--e-global-color-primary);
   background-size: cover;
   background-repeat: no-repeat;
@@ -338,12 +339,14 @@ p {
   height: 350px;
   border-radius: 50px 0;
 }
-.banner-section-outer .banner-section .banner-section-content .top-btn i:hover {
+
+.banner-section-outer  .banner-section-content .top-btn i:hover {
   color: var(--e-global-color-soft-orange);
 }
 .banner-section-outer .banner-section .banner-section-image {
   position: absolute;
-  top: 0;
+  bottom: 0;
+  right: 0;
   filter: drop-shadow(0px 4px 10px rgba(255, 215, 0, 0.5));
 }
 .banner-section-outer .banner-section .banner-section-image figure {
@@ -2218,6 +2221,7 @@ textarea {
 }
 .logo-c img {
   height: 90px;
+  width: 130px;
 }
 .img-service {
   height: 350px;
@@ -2271,4 +2275,72 @@ textarea {
 .img1 img:hover{
     transform: translateY(-10px) scale(110%);
 
+}
+
+.ache-img{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.achievement-j{
+    height: 120px;
+}
+.achievement-k{
+    height: 120px;
+}
+.achievement-i{
+    height: 120px;
+}
+.achievement-logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-logo{
+    height: 150px;
+    width:auto;
+    justify-content: center;
+}
+.banner-card{
+    position: relative;
+    
+}
+.banner-card img{
+    width: 100vw;
+    padding: 95px 0 80px;
+    height: fit-content;
+    display:flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+.banner-text{
+    position:absolute;
+    top: 40%;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.banner-text h2{
+    font-size: 35px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    height: auto;
+}
+
+.banner-text p{
+    font-size: 20px;
+    
+    padding: 100px;
+    text-align: left;
+    text-decoration: solid;
+    justify-content:center;
+    font-family: sans-serif;
+    
 }
