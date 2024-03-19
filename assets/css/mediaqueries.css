@@ -1037,14 +1037,13 @@
 @media screen and (max-width: 991px){
     .about1{
         gap:20px;
-
+        flex-direction: column;
     }
     .abt-content{
         width: 70%;
     }
     .abt-logo img{
-        height: 150px;
-    }
+display: none;    }
     .main_header {
         padding: 25px 30px 0;
     }
