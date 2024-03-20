@@ -19,7 +19,7 @@
     }
 
     .banner-section-outer .banner-section {
-        padding: 50px 85px 50px;
+        padding: 100px 85px 50px;
     }
     h1 {
         font-size: 54px;
@@ -63,11 +63,10 @@
     }
     .get_in_touch_section::after {
         width: 58%;
+        display: none;
     }
     .get_in_touch_section .get_in_touch_video .video_img {
-        left: -15px;
-        top: 220px;
-        margin-right: 0;
+        display: none;
     }
 
     .testimonial_content .testimonial_paragraph {
@@ -182,7 +181,7 @@
     }
 
     .banner-section-outer .banner-section {
-        padding: 90px 60px 100px;
+        padding: 105px 60px 100px;
     }
     .banner-section-outer .banner-section .banner-section-content {
         padding-top: 115px;
@@ -1020,6 +1019,9 @@
         margin-top: -10px;
         width: 78%;
     }
+    .box_wrapper{
+
+    }
     .message_section .box .box_wrapper p {
         font-size: 16px;
         line-height: 22px;
@@ -1035,6 +1037,15 @@
 }
 
 @media screen and (max-width: 991px){
+    .about1{
+        gap:20px;
+        flex-direction: column;
+    }
+    .abt-content{
+        width: 70%;
+    }
+    .abt-logo img{
+display: none;    }
     .main_header {
         padding: 25px 30px 0;
     }
@@ -1152,7 +1163,7 @@
     }
 
     .banner-section-outer .banner-section {
-        padding: 65px 30px 70px;
+        padding: 100px 30px 70px;
     }
     .banner-section-outer .banner-section .banner-section-content {
         padding-top: 50px;
@@ -1931,6 +1942,9 @@
 }
 
 @media screen and (max-width: 767px){
+    .box_wrapper1{
+        flex-direction: column;
+    }
     .main_header {
         padding: 20px 30px 0;
     }
@@ -2232,6 +2246,7 @@
         display: block;
         position: relative;
         background-position: center;
+        display: none;
     }
 
     .pricing_plans_section {
@@ -2502,7 +2517,7 @@
         margin-bottom: 18px;
     }
     .aboutpage_aboutus_content .box {
-        width: 32%;
+        width: 62%;
         padding: 12px 26px 12px;
         margin-bottom: 15px;
         margin-right: 20px;
@@ -3110,7 +3125,7 @@
         margin-bottom: 15px;
     }
     .aboutpage_aboutus_content .box {
-        width: 40%;
+        width: 72%;
         padding: 12px 15px 12px;
         margin-bottom: 18px;
         margin-right: 15px;

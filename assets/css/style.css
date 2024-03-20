@@ -240,7 +240,7 @@ p {
 /* Home Page Banner Section Style */
 
 .banner-section-outer .banner-section {
-  padding: 50px 292px 9px;
+  padding: 65px 292px 9px;
   position: relative;
 }
 .banner-section-outer .banner-section .banner-section-content {
@@ -771,7 +771,7 @@ p {
   position: absolute;
 }
 .get_in_touch_section::after {
-  background: url(../images/get_in_touch_image.jpg);
+  background-color: var(--e-global-color-soft-orange);
   content: "";
   width: 50%;
   height: 806px;
@@ -880,8 +880,8 @@ textarea {
 }
 .get_in_touch_section .get_in_touch_video .video_img {
   position: absolute;
-  left: 80px;
-  top: 202px;
+  left: -80px;
+  top: 100px;
   margin-right: -30px;
 }
 .t-video {
@@ -1428,7 +1428,7 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 700px;
+  height: 420px;
 }
 .sub-banner-section .banner-section {
   padding: 110px 0 120px;
@@ -1540,9 +1540,10 @@ textarea {
   margin-bottom: 30px;
 }
 .aboutpage_aboutus_content .box {
-  width: 48%;
+  width: 49%;
   background-color: var(--e-global-color-white);
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   align-items: center;
   padding: 20px 24px 15px;
   border-radius: 30px 0 30px 0;
@@ -1553,9 +1554,7 @@ textarea {
   position: relative;
 }
 .aboutpage_aboutus_content .box i {
-  position: absolute;
-  left: 22px;
-  top: 24px;
+  
   border-radius: 100%;
   border: 2px solid var(--e-global-color-secondary);
   height: 38px;
@@ -1577,6 +1576,35 @@ textarea {
   transform: translateY(-10px);
 }
 
+/* About Page About Section Style */
+.flex{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.about1{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.abt-logo img{
+  height: 250px;
+}
+.abt-content{
+  width: 50%;
+}
+.box_wrapper1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.box1{
+  background-color: var(--e-global-color-desaturated-magenta);
+}
 /* About Page Discount Section Style */
 
 .discount_section {
@@ -2152,6 +2180,7 @@ textarea {
 .message_section .box_padding {
   margin-top: 10px;
 }
+
 .message_section .box {
   box-shadow: 1px 1px 50px rgb(0 0 0 / 5%);
   width: 380px;
@@ -2270,10 +2299,11 @@ textarea {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 50px 0px;
 }
 .img1 img{
     height: 300px;
+    width: 100%;
     border-radius: 20px;
     transition: all 0.2s  ease-in-out;
     box-shadow:1px 1px 15px 1px var(--e-global-color-very-dark-desaturated-magenta) ;
